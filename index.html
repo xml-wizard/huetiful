@@ -21,13 +21,13 @@
         class="text-slate-700 bg-slate-200 dark:text-slate-200 shadow-md shadow-gray-200 dark:shadow-black dark:bg-slate-800">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a class="flex space-x-3 rtl:space-x-reverse items-center font-medium text-base"
-                href="https://huetiful-js.com" id="home"><img src="assets/img/logo.png" alt="huetiful-js logo"
+                href="https://huetiful-js.com" id="home"><img src="assets/img/logo.svg" alt="huetiful-js logo"
                     class="h-8">
-                <span
-                    class="self-center text-2xl font-light whitespace-nowrap text-slate-700 dark:text-slate-50 ">huetiful-js</span>
+
 
             </a>
-            <a href="/api/index.html" class="inline-flex space-y-1 items-center font-medium text-base">
+            <a href="/api/index.html"
+                class="inline-flex space-y-1 items-center hover:bg-purple-200 hover:text-black rounded-md p-2.5 font-medium text-base">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
                     class="inline-block mr-1">
@@ -35,7 +35,7 @@
                     <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
                 </svg><span>API</span>
             </a>
-            <a class="inline-flex space-y-1 items-center font-medium text-base"
+            <a class="inline-flex space-y-1 items-center hover:bg-purple-200 hover:text-black rounded-md p-2.5 font-medium text-base"
                 href="https://github.com/xml-wizard/huetiful">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
@@ -50,7 +50,8 @@
 
 
 
-        <a class="inline-flex space-y-1 items-center font-medium text-base" href="/download">
+        <a class="inline-flex space-y-1 items-center hover:bg-purple-200 hover:text-black rounded-md p-2.5 font-medium text-base"
+            href="/download">
 
             </svg> <span>Download</span>
         </a>
@@ -60,11 +61,26 @@
         class='progress dark:bg-gradient-to-r from-orange-400 via-purple-400 to-emerald-400  bg-gradient-to-r from-orange-600 via-purple-600 to-emerald-600' />
 </header>
         
+&lt;section class=&quot;flex-col w-full mx-auto &quot;&gt;
+
+  &lt;h1 class=&quot; font-mono m-4 text-center text-2xl&quot;&gt;&lt;span class=&quot;text-blue-500&quot;&gt;Function oriented&lt;/span&gt; library &lt;span class=&#39;text-slate-500&#39;&gt;for&lt;/span&gt; &lt;span class=&#39;text-orange-500&#39;&gt;color&lt;/span&gt; &lt;span class=&#39;text-pink-500&#39;&gt;manipulation 🧪.&lt;/span&gt;
+  &lt;/h1&gt;
+
+  &lt;div class=&quot;flex w-full py-2.5 px-3 space-x-4 items-center&quot;&gt;
+    &lt;a href=&quot;./api/&quot;&gt;&lt;button class=&quot;px-2 py-2 bg-pink-500 border-none text-sm rounded text-white&quot;&gt;See the docs&lt;/button&gt;&lt;/a&gt;
+&lt;a href=&quot;&quot; class=&quot;api/&quot;&gt;&lt;button
+        class=&quot;px-2 py-2 bg-blue-500 border-none text-sm text-white rounded&quot;&gt;Demos&lt;/button&gt;&lt;/a&gt;
+  &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p class=&quot;text-slate-500 text-base leading-relaxed font-mono text-center&quot;&gt;Filter,sort,query and generate color tokens from &lt;code&gt;ArrayLike&lt;/code&gt;  and &lt;code&gt;Map&lt;/code&gt; (or plain objects) collections using their attributes/properties. Also provides functions for manipulating individual color
+    tokens too.&lt;/p&gt;
+&lt;/section&gt;
 
 
+<h2 class="font-mono text-slate-600 text-left text-lg font-semibold">Demos</h2>
 
 <section class="flex-col bg-slate-100 my-3">
-    <h2 class="font-mono text-slate-600 text-left text-lg">Demos</h2>
+
 
     <h3 class="font-sans text-xl font-semibold dark:text-slate-300 text-slate-700">sortBy</h3>
 
@@ -74,9 +90,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">sortBySaturation</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Sorts colors by saturation value in `asc` order</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -207,9 +223,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">sortByLightness</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Sorts colors by lightness value in `asc` order</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -340,9 +356,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">sortByLuminance</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Sorts colors by luminance value in `asc` order</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -473,9 +489,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">sortByDistance</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Sorts colors by the distance from &#39;brown&#39; in `asc` order</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -606,9 +622,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">sortByContrast</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Sorts colors by contrast value in `asc` order against black</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -739,9 +755,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">sortByHue</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Sorts colors by hue angle in `asc` order</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -873,8 +889,10 @@
 </section>
 
 
+<h2 class="font-mono text-slate-600 text-left text-lg font-semibold">Demos</h2>
+
 <section class="flex-col bg-slate-100 my-3">
-    <h2 class="font-mono text-slate-600 text-left text-lg">Demos</h2>
+
 
     <h3 class="font-sans text-xl font-semibold dark:text-slate-300 text-slate-700">colors</h3>
 
@@ -884,9 +902,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">tailwindColors</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Returns the swatches of color families at 300</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1018,8 +1036,10 @@
 </section>
 
 
+<h2 class="font-mono text-slate-600 text-left text-lg font-semibold">Demos</h2>
+
 <section class="flex-col bg-slate-100 my-3">
-    <h2 class="font-mono text-slate-600 text-left text-lg">Demos</h2>
+
 
     <h3 class="font-sans text-xl font-semibold dark:text-slate-300 text-slate-700">filterBy</h3>
 
@@ -1029,9 +1049,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">filterByContrast</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Filters color by relative contrast</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1060,9 +1080,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">filterByHue</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Filters color by hue</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1109,9 +1129,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">filterByLuminance</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Filters color by luminance</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1152,9 +1172,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">filterByLightness</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Filters color by lightness</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1237,9 +1257,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">filterByDistance</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Filters color by distance</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1268,9 +1288,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">filterByChroma</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Filters color by saturation</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1312,8 +1332,10 @@
 </section>
 
 
+<h2 class="font-mono text-slate-600 text-left text-lg font-semibold">Demos</h2>
+
 <section class="flex-col bg-slate-100 my-3">
-    <h2 class="font-mono text-slate-600 text-left text-lg">Demos</h2>
+
 
     <h3 class="font-sans text-xl font-semibold dark:text-slate-300 text-slate-700">generators</h3>
 
@@ -1323,9 +1345,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">discoverPalettes</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Takes an array of colors and finds the best matches for a set of predefined palettes.</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1360,9 +1382,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">earthtone</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Creates a scale of a spline interpolation between an earthtone and a color.</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1403,9 +1425,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">hueShift</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Generates a palette of hue shifted colors</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1494,9 +1516,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">interpolateSpline</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Returns a spline interpolator function with customizable interpolation methods</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1555,9 +1577,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">pairedScheme</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Creates a scheme that consists of a scheme color that is incremented by a hueStep to get the final hue to pair with</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         
         <div class="flex-row space-y-2 flex-wrap items-start">
@@ -1592,9 +1614,9 @@
     <h4 class="font-sans text-slate-700  dark:text-slate-300 font-semibold text-base">pastel</h4>
     <p class="pt-3 font-sans text-slate-500 text-sm ">Creates a pastel variant of a color</p>
 
-    <hr class="divide-y">
+    <hr class="divide-y-[1.75px] divide-slate-300 ">
 
-    <div class="flex space-x-2 p-2 flex-wrap">
+    <div class="flex space-x-2 flex-wrap">
         
         <div class="flex-col space-y-2">
             <p class="text-sm">#81f281</p>
@@ -1644,8 +1666,8 @@
                             <line x1="12" y1="22.08" x2="12" y2="12"></line>
                         </svg></a>
                     <a class="bg-slate-50 dark:bg-gray-300" href="mailto:prjctimg@outlook.com"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="stroke-slate-400 dark:stroke-slate-100 stroke-[1.5px]
+                            xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 24 24"
+                            stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="stroke-slate-400 dark:stroke-slate-100 fill-slate-400 dark:fill-slate-100 stroke-[1.5px]
                             <path d=" M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
                             </path>
                             <polyline points="22,6 12,13 2,6"></polyline>
@@ -1667,7 +1689,7 @@
 
 
             <div class="pt-2">
-                <blockquote class="inline-block text-sm font-sans text-white">
+                <blockquote class="inline-block text-sm font-sans text-slate-400 dark:text-slate-100">
                     <p class="text-sm">
                         <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="14"
                                 viewBox="0 0 24 24" fill="none" stroke-width="1.75" stroke-linecap="round"
